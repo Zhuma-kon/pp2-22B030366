@@ -48,7 +48,7 @@ def submaterials():
     buttons_bar.blit(g, (5, 232))
     b = font.render('3 - Blue', True, BLUE)
     buttons_bar.blit(b, (5, 252))
-    y = font.render('4 - White', True, BLACK)
+    y = font.render('4 - Black', True, BLACK)
     buttons_bar.blit(y, (5, 272))
     SCREEN.blit(buttons_bar, (700, 0))
 
