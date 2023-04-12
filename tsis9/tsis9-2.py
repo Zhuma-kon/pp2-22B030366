@@ -146,7 +146,7 @@ while not done:
         end_time = start_time + seconds
         xy_new = (randint(0, WIDTH // block - 1), randint(0, WIDTH // block - 1))
         if xy_new not in snek.body: #this if makes sure that new s_fud coordinates are not in snek's body
-            s_fud = super_food(randint(0, WIDTH // block - 1), randint(0,  HEIGHT // block -1), 7)
+            s_fud = super_food(xy_new, 7)
     if check == 1: # this is for making sure that s_fud won't appear twice
         s_fud.draw(end_time)
     
