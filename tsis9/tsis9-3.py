@@ -52,7 +52,7 @@ def submaterials():
     buttons_bar.blit(y, (5, 272))
     SCREEN.blit(buttons_bar, (700, 0))
 
-
+    
 
 # Point = collections.namedtuple('Point', ['x', 'y'])
 

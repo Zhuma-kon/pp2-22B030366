@@ -28,7 +28,7 @@ class player(pygame.sprite.Sprite):
         super().__init__()
         self.rect=pygame.Rect(60, 60, 55, 55)
         self.rect.center=(250, 400)
-        
+    
     def move(self):
         pressed=pygame.key.get_pressed()
         if self.rect.left>=0: 

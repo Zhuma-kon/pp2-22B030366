@@ -169,7 +169,7 @@ while not done:
 
         pygame.mixer.music.pause()
         eat.play()
-
+    
         x_new = randint(0, WIDTH // block - 1)
         y_new = randint(0, HEIGHT // block - 1)
         if (x_new, y_new) not in snek.body: #this is for c=making sure that fud won't appear in snek
